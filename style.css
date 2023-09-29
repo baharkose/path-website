@@ -5,10 +5,12 @@
   padding: 0px;
   text-align: center;
   color: white;
+  
 }
 body {
   display: flex;
   justify-content: center;
+  height: 100vh;
   background: rgb(39, 20, 45);
   background: linear-gradient(
     90deg,
@@ -21,7 +23,10 @@ body {
 .container {
   /* background-color: lightgreen; */
   width: 80vw;
+  /* height: 500px; */
 }
+
+
 
 .header {
   font-family: "Pixelify Sans", cursive;
@@ -31,22 +36,27 @@ body {
 }
 
 .path-img {
-  width: 24vw;
+  width: 36%;
   height: 24vh;
   float: left;
   margin-right: 1%;
 }
 
 .path-img:hover{
-  width:40vw;
+  width:30vh;
+  height: 26vh;
 }
 .content {
   text-align: left;
   background-color: rgba(255, 255, 255, 0.304);
-  padding: 2%;
-  height: 24vh;
-  margin-bottom: 2%;
+  padding: 3% 2%  12% 2%;
+  /* height: 24vh; */
+  margin-bottom: 4%;
   border-radius: 4px;
+}
+
+.path-img:hover .content{
+  height: auto;
 }
 
 h2 {
