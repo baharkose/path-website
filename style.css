@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  color: white;
+}
+body {
+  display: flex;
+  justify-content: center;
+  background: rgb(39, 20, 45);
+  background: linear-gradient(
+    90deg,
+    rgba(39, 20, 45, 1) 9%,
+    rgba(114, 59, 147, 1) 41%,
+    rgba(69, 210, 252, 1) 100%
+  );
+  /* align-items: center; */
+}
+.container {
+  /* background-color: lightgreen; */
+  width: 80vw;
+}
+
+.header {
+  font-family: "Pixelify Sans", cursive;
+  font-size: 2.7rem;
+  color: white;
+  margin-bottom: 2.5%;
+}
+
+.path-img {
+  width: 24vw;
+  height: 24vh;
+  float: left;
+  margin-right: 1%;
+}
+
+.path-img:hover{
+  width:40vw;
+}
+.content {
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.304);
+  padding: 2%;
+  height: 24vh;
+  margin-bottom: 2%;
+  border-radius: 4px;
+}
+
+h2 {
+  text-align: left;
+  color: #f4a660;
+  margin-bottom: 1%;
+  font-size: 2rem;
+
+}
+
+.content-text {
+  text-align: justify;
+  text-indent: 15px;
+}
+
+button{
+  float:right;
+  padding:1.5%;
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+button:hover{
+  padding: 2%;
+}
+  
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+a:hover{
+  text-decoration: none;
+}
